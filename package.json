@@ -505,6 +505,11 @@
                     "group": "regs_tag_1_general@1"
                 },
                 {
+                    "command": "annaPrototype.helloWorld",
+                    "when": "view == dockerRegistries && viewItem == azure;DockerV2;Tag;",
+                    "group": "regs_tag_1_general@7"
+                },
+                {
                     "command": "vscode-docker.registries.copyRemoteFullTag",
                     "when": "view == dockerRegistries && viewItem =~ /(DockerV2|DockerHubV2);Tag;/",
                     "group": "regs_tag_1_general@2"
@@ -2689,6 +2694,11 @@
             {
                 "command": "vscode-docker.registries.pullImage",
                 "title": "%vscode-docker.commands.registries.pullImage%",
+                "category": "%vscode-docker.commands.category.dockerRegistries%"
+            },
+            {
+                "command": "vscode-docker.registries.showReferrer",
+                "title": "%vscode-docker.commands.registries.showReferrer%",
                 "category": "%vscode-docker.commands.category.dockerRegistries%"
             },
             {

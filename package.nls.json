@@ -281,6 +281,7 @@
     "vscode-docker.commands.registries.logInToDockerCli": "Log In to Docker CLI",
     "vscode-docker.commands.registries.logOutOfDockerCli": "Log Out of Docker CLI",
     "vscode-docker.commands.registries.pullImage": "Pull Image",
+    "vscode-docker.commands.registries.showReferrer": "Show Referrer",
     "vscode-docker.commands.registries.pullRepository": "Pull Repository",
     "vscode-docker.commands.registries.refresh": "Refresh",
     "vscode-docker.commands.volumes.configureExplorer": "Configure Explorer...",

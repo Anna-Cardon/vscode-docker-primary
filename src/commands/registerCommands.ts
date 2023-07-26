@@ -43,6 +43,7 @@ import { removeImageGroup } from "./images/removeImageGroup";
 import { runAzureCliImage } from "./images/runAzureCliImage";
 import { runImage, runImageInteractive } from "./images/runImage";
 import { hideDanglingImages, setInitialDanglingContextValue, showDanglingImages } from "./images/showDanglingImages";
+import { showReferrer } from "./images/showReferrer";
 import { tagImage } from "./images/tagImage";
 import { configureNetworksExplorer } from "./networks/configureNetworksExplorer";
 import { createNetwork } from "./networks/createNetwork";
@@ -151,6 +152,7 @@ export function registerCommands(): void {
     registerCommand('vscode-docker.images.hideDangling', hideDanglingImages);
     setInitialDanglingContextValue();
     registerWorkspaceCommand('vscode-docker.images.pull', pullImage);
+    registerWorkspaceCommand('vscode-docker.images.referrer', showReferrer);
     registerWorkspaceCommand('vscode-docker.images.push', pushImage);
     registerCommand('vscode-docker.images.remove', removeImage);
     registerCommand('vscode-docker.images.group.remove', removeImageGroup);
