@@ -505,7 +505,7 @@
                     "group": "regs_tag_1_general@1"
                 },
                 {
-                    "command": "annaPrototype.helloWorld",
+                    "command": "vscode-docker.registries.showReferrer",
                     "when": "view == dockerRegistries && viewItem == azure;DockerV2;Tag;",
                     "group": "regs_tag_1_general@7"
                 },
